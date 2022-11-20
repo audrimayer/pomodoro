@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Timer with Progress Indicator</title>
+</head>
+<body>
+    <div class="main-container center">
+        <!-- круговой индикатор -->
+        <div class="circle-container center">
+
+            <!-- первый полукруг -->
+            <div class="semicircle"></div>
+
+            <!-- второй полукруг -->
+            <div class="semicircle"></div>
+
+            <!-- третий полукруг -->
+            <div class="semicircle"></div>
+
+            <!-- круг, который закрывает полукруги, оставляя видимыми только несколько пикселей,
+            благодаря нему мы видим контур-индикатор, а не поворачивающиеся полукруги -->
+            <div class="outermost-circle"></div>
+        </div>
+
+        <!-- таймер -->
+
+        <div class="timer-container center">
+            <div class="timer center">
+                <!-- сюда вставляется html-код цифр с помощью js, см. строку 42 в script.js -->
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
